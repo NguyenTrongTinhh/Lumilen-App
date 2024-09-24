@@ -8,13 +8,13 @@ const SignUp = () => {
 
       <View style={styles.imageGrid}>
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
+        <Image style={styles.image} source={require('../Picture/image_2.png')} />
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
+        <Image style={styles.image} source={require('../Picture/image_2.png')} />
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
-        <Image style={styles.image} source={require('../Picture/image_1.png')} />
-        <Image style={styles.image} source={require('../Picture/image_1.png')} />
-        <Image style={styles.image} source={require('../Picture/image_1.png')} />
+        <Image style={styles.image} source={require('../Picture/image_2.png')} />
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
       </View>
 
