@@ -1,64 +1,62 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, ScrollView } from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
 import styles from '../Css/SignUp_css'; 
 
 const SignUp = () => {
   return (
-    <ScrollView contentContainerStyle={styles.container}>
-
-      <View style={styles.imageGrid}>
-        <Image style={styles.image} source={require('../Picture/image_1.png')} />
-<<<<<<< HEAD
-
-        <Image style={styles.image} source={require('../Picture/image_2.png')} />
-        <Image style={styles.image} source={require('../Picture/image_2.png')} />
-        <Image style={styles.image} source={require('../Picture/image_2.png')} />
-        <Image style={styles.image} source={require('../Picture/image_2.png')} />
-
-
-=======
-        <Image style={styles.image} source={require('../Picture/image_2.png')} />
-        <Image style={styles.image} source={require('../Picture/image_1.png')} />
->>>>>>> 9b61e21a22db53c2a9ddba8df4bd673a3787ef34
-        <Image style={styles.image} source={require('../Picture/image_1.png')} />
-        <Image style={styles.image} source={require('../Picture/image_2.png')} />
-        <Image style={styles.image} source={require('../Picture/image_1.png')} />
-        <Image style={styles.image} source={require('../Picture/image_1.png')} />
-<<<<<<< HEAD
-        <Image style={styles.image} source={require('../Picture/image_1.png')} />
-        <Image style={styles.image} source={require('../Picture/image_1.png')} />
-        <Image style={styles.image} source={require('../Picture/image_1.png')} />
-=======
-        <Image style={styles.image} source={require('../Picture/image_2.png')} />
->>>>>>> 9b61e21a22db53c2a9ddba8df4bd673a3787ef34
-        <Image style={styles.image} source={require('../Picture/image_1.png')} />
+    <View style={styles.signUp1}>
+    <View style={styles.image}>
+      <View style={styles.imageParent}>
+        <Image style={styles.imageIcon} source={require('../Picture/image_1.png')} />
+        <Image style={styles.imageIcon1} source={require('../Picture/image_2.png')} />
+        <Image style={styles.imageIcon2} source={require('../Picture/image_3.png')} />
+        <Image style={styles.imageIcon3} source={require('../Picture/image_4.png')} />
+        <Image style={styles.imageIcon4} source={require('../Picture/image_5.png')} />
+        <Image style={styles.imageIcon5} source={require('../Picture/image_6.png')} />
+        <Image style={styles.imageIcon6} source={require('../Picture/image_7.png')} />
+        <Image style={styles.imageIcon7} source={require('../Picture/image_8.png')} />
+        <Image style={styles.imageIcon8} source={require('../Picture/image_9.png')} />
+       
       </View>
-
+      <View style={styles.overlay} />
+    </View>
+    <View style={styles.indicator}>
+      <View style={styles.line} />
+    </View>
   
-      <View style={styles.logoContainer}>
-        <Image style={styles.logo} source={require('../Picture/logo.png')} /> 
-        <Text style={styles.welcomeText}>Welcome to Pinterest</Text>
+    <View style={styles.content}>
+      <View style={styles.logo}>
+        <Image style={styles.logoIcon} source={require('../Picture/logo.png')} />
+        <Text style={styles.welcomeToPinterest}>Welcome to Pinterest</Text>
       </View>
-
-
       <View style={styles.buttonGroup}>
-        <TouchableOpacity style={styles.signUpButton}>
-          <Text style={styles.signUpText}>Sign up</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.logInButton}>
-          <Text style={styles.logInText}>Log in</Text>
-        </TouchableOpacity>
+        <View style={styles.buttons}>
+          <TouchableOpacity style={styles.buttonBase}>
+            <Text style={styles.button}>Sign up</Text>
+          </TouchableOpacity>
+        </View>
+        <View style={styles.buttons1}>
+          <TouchableOpacity style={styles.buttonBase1}>
+            <Text style={styles.button}>Log in</Text>
+          </TouchableOpacity>
+        </View>
       </View>
+      <View style={styles.terms}>
+        <View style={styles.byContinuingYouAgreeToPiParent}>
+          <Text style={styles.byContinuingYou}>By continuing, you agree to Pinterest’s</Text>
+          <Text style={styles.termsOfService}>Terms of Service</Text>
+          <Text style={styles.byContinuingYou}>and</Text>
+        </View>
+        <View style={styles.byContinuingYouAgreeToPiParent}>
+          <Text style={styles.byContinuingYou}>acknowledge you’ve read our</Text>
+          <Text style={styles.termsOfService}>Privacy Policy</Text>
+        </View>
+      </View>
+    </View>
+  </View>
+);
 
-      
-      <View style={styles.termsContainer}>
-        <Text style={styles.termsText}>By continuing, you agree to Pinterest&apos;s</Text>
-        <Text style={styles.linkText}>Terms of Service</Text>
-        <Text style={styles.termsText}> and acknowledge you&apos;ve read our </Text>
-        <Text style={styles.linkText}>Privacy Policy</Text>
-      </View>
-    </ScrollView>
-  );
 };
 
 export default SignUp;
