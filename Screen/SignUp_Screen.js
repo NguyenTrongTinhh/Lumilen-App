@@ -20,7 +20,7 @@ const SignUp = () => {
 
   
       <View style={styles.logoContainer}>
-        <Image style={styles.logo} source={require('../Picture/image_1.png')} /> 
+        <Image style={styles.logo} source={require('../Picture/logo.png')} /> 
         <Text style={styles.welcomeText}>Welcome to Pinterest</Text>
       </View>
 
