@@ -8,29 +8,25 @@ const SignUp = () => {
 
       <View style={styles.imageGrid}>
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
-<<<<<<< HEAD
-
-        <Image style={styles.image} source={require('../Picture/image_2.png')} />
-        <Image style={styles.image} source={require('../Picture/image_2.png')} />
-        <Image style={styles.image} source={require('../Picture/image_2.png')} />
-        <Image style={styles.image} source={require('../Picture/image_2.png')} />
 
 
-=======
+        <Image style={styles.image} source={require('../Picture/image_2.png')} />
+        <Image style={styles.image} source={require('../Picture/image_2.png')} />
+        <Image style={styles.image} source={require('../Picture/image_2.png')} />
+        <Image style={styles.image} source={require('../Picture/image_2.png')} />
+
         <Image style={styles.image} source={require('../Picture/image_2.png')} />
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
->>>>>>> 9b61e21a22db53c2a9ddba8df4bd673a3787ef34
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
         <Image style={styles.image} source={require('../Picture/image_2.png')} />
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
-<<<<<<< HEAD
+
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
-=======
+
         <Image style={styles.image} source={require('../Picture/image_2.png')} />
->>>>>>> 9b61e21a22db53c2a9ddba8df4bd673a3787ef34
         <Image style={styles.image} source={require('../Picture/image_1.png')} />
       </View>
 
